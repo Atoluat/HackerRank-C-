@@ -1,0 +1,9 @@
+string S = Console.ReadLine();
+try
+{
+    Console.WriteLine(Convert.ToInt32(S));
+}
+catch (Exception)
+{
+    Console.WriteLine("Bad String");
+}
