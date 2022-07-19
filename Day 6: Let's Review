@@ -1,0 +1,19 @@
+int n = Int32.Parse(Console.ReadLine());
+for (int i = 0; i < n; i++)
+{
+    string s = Console.ReadLine();
+    string ss = "";
+    string sss = " ";
+    for (int j = 0; j < s.Length; j++)
+    {
+        if (j % 2 == 0)
+        {
+            ss += s[j];
+        }
+        else
+        {
+            sss += s[j];
+        }
+    }
+    Console.WriteLine(ss + sss);
+}
